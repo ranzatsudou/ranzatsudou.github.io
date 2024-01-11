@@ -8,4 +8,4 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
 RewriteCond %{THE_REQUEST} \.(php|html)\ HTTP
-RewriteRule ^(.*)\.(php|html)$ /test/$1 [R=301,L]
+RewriteRule ^(.*)\.(php|html)$ //$1 [R=301,L]
